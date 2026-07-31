@@ -1,8 +1,26 @@
 aid: orbis-education
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/orbis-education.png
 name: Orbis Education
-description: Orbis Education is a company surfaced as a portfolio company of lightspeed-venture-partners
-  and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the
-  enrichment pipeline.
+description: Orbis Education is a healthcare education services company founded in 2003 that
+  partners with universities and healthcare systems to create, market, and manage collaborative,
+  accelerated healthcare degree programs — including Accelerated Bachelor of Science in Nursing
+  (ABSN), Medical Laboratory Sciences (MLS), and Occupational Therapy Assistant (OTA) programs —
+  to help address workforce shortages in nursing and allied health. Operating across more than 26
+  states, the company connects students with universities and clinical placement sites to graduate
+  practice-ready professionals, and was acquired by Grand Canyon Education in 2018. Orbis Education
+  is a services provider and does not publish a public API, developer portal, or developer
+  documentation.
 url: https://raw.githubusercontent.com/api-evangelist/orbis-education/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,12 +30,28 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Education
+- Healthcare
+- Nursing Education
+- Higher Education
+- EdTech
+- Workforce Development
 apis: []
+common:
+- type: Website
+  url: https://www.orbiseducation.com/
+- type: Blog
+  url: https://www.orbiseducation.com/news/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 0
+  pass: local-v1
