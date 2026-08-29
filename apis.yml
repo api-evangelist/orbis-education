@@ -33,6 +33,9 @@ description: Orbis Education is a healthcare education services company founded 
   is a services provider and does not publish a public API, developer portal, or developer
   documentation.
 url: https://raw.githubusercontent.com/api-evangelist/orbis-education/refs/heads/main/apis.yml
+x-api-posture: no-product-api
+x-api-posture-basis: observed
+x-api-posture-note: "Orbis Education is a services provider and does not publish a public API, developer portal, or developer documentation."
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
